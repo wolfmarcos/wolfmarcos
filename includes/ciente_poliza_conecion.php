@@ -1,10 +1,10 @@
 <?php
 
         //Paso 1) Datos de conexion.
-        $usuario = 'root';
-        $clave = '';
-        $servidor = 'localhost';
-        $basededatos = 'ciente_poliza';
+       $usuario = 'id16248795_tp1';
+        $clave = '<2^5#vMaP+=30#]x';
+        $servidor = 'https://databases-auth.000webhost.com/index.php';
+        $basededatos = 'id16248795_marcos';
 
         // Paso 2) Creamos la conexion al servidor.
         $conexion = mysqli_connect($servidor,$usuario,$clave)
