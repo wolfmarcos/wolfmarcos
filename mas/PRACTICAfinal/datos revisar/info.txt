@@ -1,0 +1,49 @@
+
+                
+                <hr size="2px" color="black" />  
+                <h6 class="font-italic">Seleccione sus materias favoritas.</h6>    
+                <div class="form-group">
+                    <input type="checkbox" id="materia1" name="materia1" value="php">
+                    <label for="materia1">Aplicaciones Web</label>                   
+                </div> 
+                <div class="form-group">
+                    <input type="checkbox" id="materia2" name="materia2" value="java">
+                    <label for="materia2">JAVA</label>                   
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="materia3" name="materia3" value="asp_net">
+                    <label for="materia3">ASP Net</label>                   
+                </div>     
+
+                <hr size="2px" color="black" />
+
+                <fieldset>
+                <legend>Seleccione su nivel de ingles.</legend>
+
+                <div class="form-group">
+                    <label>
+                        <input type="radio" name="nivel" value="alto"> Alto
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="radio" name="nivel" value="medio"> Medio
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="radio" name="nivel" value="bajo"> Bajo
+                    </label>
+                </div>                
+                </fieldset>  
+
+                <hr size="2px" color="black" />
+
+                <div class="form-group">
+                    <label for="selector1">Seleccione el motivo de su contacto.</label>
+                    <select name="selector1" id="selector1">
+                        <option value="consulta">Consulta</option>
+                        <option value="sugerencia">Sugerencia</option>
+                        <option value="queja">Queja</option>
+                    </select>
+                </div>                       
